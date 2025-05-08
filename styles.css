@@ -1,2 +1,63 @@
 
 /* Your CSS Code here. */
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Navigation */
+nav {
+  background-color: #004080;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Heading */
+h1 {
+  font-size: 2em;
+  color: #004080;
+}
+
+/* Image */
+img {
+  border-radius: 50%;
+  display: block;
+  margin: 20px 0;
+}
+
+/* Sections */
+section {
+  margin-bottom: 30px;
+}
+
+/* Lists */
+ul[role="list"] {
+  padding-left: 20px;
+}
+
+li[role="listitem"] {
+  margin-bottom: 8px;
+}
